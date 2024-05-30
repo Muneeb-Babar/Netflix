@@ -6,7 +6,7 @@ const MainFooter = () => {
     return (
         <div>
             <div className='main-Footer'>
-            <h6 className='container' style={{color:'lightgrey'}}>Questions? Contact us.</h6>
+            <h6 className='container' style={{color:'lightgrey',paddingTop:'5px'}}>Questions? Contact us.</h6>
                 <div className='conteiner main-inner-footer'>
                 <div>
                     <div>FAQ</div>
@@ -36,7 +36,7 @@ const MainFooter = () => {
                 <select style={{padding:'3px'}}>
                         <option value={''}>English</option>
                         </select>
-                        <div style={{paddingTop:'20px'}}>Netflix Pakistan</div>
+                        <div style={{paddingTop:'30px'}}>Netflix Pakistan</div>
                         </div>
             </div>
         </div>

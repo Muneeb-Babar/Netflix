@@ -2,21 +2,25 @@
     width: 100%;
     background-color: black;
     color: white;
-    padding: 50px;
+    padding: 40px;
 }
 .main-inner-footer{
     display: flex;
     justify-content: space-evenly;
     margin-top: 15px;
-    padding: 50px;
+    padding: 20px;
     flex-wrap: wrap;
 }
 .main-inner-footer div{
-    margin: 5px;
-    flex: 0 0 1;
+    margin: 10px;
 }
 @media screen and (max-width:600px) {
     .main-Footer h6{
+        text-align: center;
+    }
+    .main-Footer{
+        padding: 5px;
+        gap: 10px;
         text-align: center;
     }
 }
