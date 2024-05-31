@@ -6,7 +6,7 @@ body, html {
 .dash-conatiner {
     background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/a99688ca-33c3-4099-9baa-07a2e2acb398/0279102c-4f3f-4ed2-a283-cce57434d595/PK-en-20240520-popsignuptwoweeks-perspective_alpha_website_large.jpg');
     width: 100vw;
-    height: 70vh;
+    height: 75vh;
     background-size: cover;
     background-position: center;
     opacity: 0.99;
@@ -14,7 +14,7 @@ body, html {
 }
 .lowColor{
     width: 100%;
-    height: 70vh;
+    height: 75vh;
     background-color: black;
     opacity: 0.8;
 }
@@ -115,11 +115,14 @@ body, html {
     .hero p{
         font-size: 1rem;
     }
+    .hero-input {
+        padding-bottom: 20px;
+    }
     .hero-input input{
         width: 100%;
     }
     .gallery-up{
-        padding: 20px;
+        padding: 10px;
     }
     .gallery-up h1{
         font-size: 2rem;
