@@ -50,8 +50,8 @@ const Dashboard = () => {
                     </div>
                     {/* Hero input */}
                     <div className="hero-input">
-                        <div>
-                            <input placeholder="Enter Your Email" size={50} />
+                        <div className="upperInput">
+                            <input  placeholder="Enter Your Email" size={50} />
                         </div>
                         <div>
                             <button
